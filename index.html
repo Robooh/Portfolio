@@ -1,231 +1,289 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Davi Gonzaga - Desenvolvedor Frontend</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Davi Gonzaga - Desenvolvedor Frontend</title>
-  
-  <link rel="stylesheet" href="src/css/font-awesome.css" />
-  <link rel="stylesheet" href="src/css/reset.css" />
-  <link rel="shortcut icon" href="src/imagens/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="src/css/font-awesome.css" />
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link
+      rel="shortcut icon"
+      href="src/imagens/favicon-32x32.png"
+      type="image/x-icon"
+    />
 
-  <!-- Global -->
-  <link rel="stylesheet" href="src/css/globais.css" />
-  <link rel="stylesheet" href="src/css/variaveis.css" />
-  <link rel="stylesheet" href="src/css/secoes/header.css" />
-  <link rel="stylesheet" href="src/css/secoes/home.css" />
-  <link rel="stylesheet" href="src/css/secoes/sobre.css" />
-  <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
-  <link rel="stylesheet" href="src/css/secoes/projetos.css" />
-  <link rel="stylesheet" href="src/css/secoes/footer.css" />
+    <!-- Global -->
+    <link rel="stylesheet" href="src/css/globais.css" />
+    <link rel="stylesheet" href="src/css/variaveis.css" />
+    <link rel="stylesheet" href="src/css/secoes/header.css" />
+    <link rel="stylesheet" href="src/css/secoes/home.css" />
+    <link rel="stylesheet" href="src/css/secoes/sobre.css" />
+    <link rel="stylesheet" href="src/css/secoes/habilidades.css" />
+    <link rel="stylesheet" href="src/css/secoes/projetos.css" />
+    <link rel="stylesheet" href="src/css/secoes/footer.css" />
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"
+    />
+  </head>
 
-<body>
-  <header class="header">
-    <div class="container">
-      <div class="row justify-content-between alinhar-itens-no-centro">
-        <a href="#">
-          <h1 class="logo">DG</h1>
-        </a>
-        <nav>
-          <input id="menu-hamburguer" type="checkbox" />
-
-          <label for="menu-hamburguer">
-            <div class="menu">
-              <span class="hamburguer"></span>
-            </div>
-          </label>
-          <ul>
-            <li><a href="#sobre-mim">Sobre mim</a></li>
-            <li><a href="#habilidades">Habilidades</a></li>
-            <li><a href="#projetos">Meus projetos</a></li>
-          </ul>
-        </nav>
-      </div>
-    </div>
-  </header>
-
-  <section class="home">
-    <div class="container">
-      <div class="row full-screen alinhar-itens-no-centro">
-        <div class="texto-home">
-          <p>Olá （￣︶￣）↗ ,</p>
-          <h1>Sou o Davi Gonzaga</h1>
-          <h2>Desenvolvedor Frontend</h2>
-
-          <div class="redes-sociais">
-            <a target="_blank" href="https://www.linkedin.com/in/davi-gonzaga-83169526a/" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
-            <a target="_blank" href="https://wa.me/5511997508656" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
-            <a target="_blank" href="https://github.com/Robooh" class="outer-shadow"><i class="fab fa-github"></i></a>
-          </div>
-        </div>
-
-        <div class="img-home">
-          <div class="img-box inner-shadow">
-            <img class="outer-shadow" src="src/imagens/02.jpg" alt="foto do perfil do Davi" />
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="sobre-mim section" id="sobre-mim">
-    <div class="container">
-      <div class="row">
-        <div class="section-title">
-          <h2>Sobre mim</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="imagem-sobre-mim">
-          <div class="img-box inner-shadow">
-            <img src="src/imagens/foto-perfil.jpg" alt="foto sobre mim" class="outer-shadow" />
-          </div>
-        </div>
-        <div class="informacoes-sobre-mim">
-          <p>
-            <strong>Olá! Me chamo Davi Gonzaga e sou um desenvolvedor frontend em
-              formação!</strong>
-              Gosto da área de tecnologia, e tenho certeza que posso contribuir em qualquer time com as minhas habilidades.
-          </p>
-
-          <p>
-           Estou sempre me desafiando com novos projetos e participando de comunidades de programação para buscar feedback de outros desenvolvedores e desenvolvedoras. 
-          </p>
-
-          <p>
-            Ah, gosto de jogos, filmes, séries, animes e outras nerdices. 💌
-          </p>
-
-          <div class="botoes">
-            <a target="_blank" href="src/arquivos/cv.pdf" class="botao outer-shadow">Veja meu CV</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="habilidades section" id="habilidades">
-    <div class="container">
-      <div class="row">
-        <div class="section-title">
-          <h2>Habilidades</h2>
-        </div>
-      </div>
-
-      <div class="container-habilidades">
-        <div class="informacoes javascript">
-          <div class="logo">
-            <i class="devicon devicon-javascript-plain" id="javascript"></i>
-          </div>
-          <h3>JavaScript</h3>
-          <p>Tenho  1 ano de estudos em Js</p>
-        </div>
-
-        <div class="informacoes html">
-          <div class="logo">
-            <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
-          </div>
-          <h3>HTML5</h3>
-          <p>Tenho 1 ano em Html com boas skils e clean code</p>
-        </div>
-
-        <div class="informacoes css">
-          <div class="logo">
-            <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
-          </div>
-          <h3>CSS3</h3>
-          <p>Tenho 1 ano em Css</p>
-        </div>
-
-        <div class="informacoes react">
-          <div class="logo">
-           <i class="devicon-react-original" id="react"></i>
-          </div>
-          <h3>React</h3>
-          <p>Tenho 7 meses utilizando a biblioteca de React, e seus complementos como React-routes,Sc</p>
-        </div>
-
-        <div class="informacoes node">
-          <div class="logo">
-            <i class="devicon-nodejs-plain" id="node.js"></i>
-          </div>
-          <h3>Node.Js</h3>
-          <p>Tenho 2 meses utilizando node.js para projetos de api</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="projetos section" id="projetos">
-    <div class="container">
-      <div class="row">
-        <div class="section-title">
-          <h2>Meus projetos</h2>
-        </div>
-      </div>
-
-      <div class="container-projetos">
-        <div class="projeto">        
-          <a href="https://robooh.github.io/Teddybear/" target="_blank">
-            <img src="src/arquivos/Projetos/Beta-04.png" alt="PGR-Teddy" />
-            <h3>Post-Page</h3>
-            <div class="informacoes-projeto">          
-              <p>Projeto feito usando HTML, CSS e JavaScript</p>
-              <p>🔗 Ver no GitHub Pages</p>
-            </div>     
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="row justify-content-between alinhar-itens-no-centro">
+          <a href="#">
+            <h1 class="logo">DG</h1>
           </a>
-        </div>
+          <nav>
+            <input id="menu-hamburguer" type="checkbox" />
 
-        <div class="projeto">        
-          <a href="https://robooh.github.io/Lading-Page/" target="_blank">
-            <img src="src/arquivos/Projetos/Beta-05.png" alt="Layout-Responsivo" />
-            <h3>Layout-Page</h3>
-            <div class="informacoes-projeto">          
-              <p>Projeto feito Usando Html,Css</p>
-              <p>🔗 Ver no GitHub Pages</p>
-            </div>      
-          </a>          
-        </div>
-
-        <div class="projeto">     
-          <a href="https://github.com/Robooh/Pokedex-Api-Simplificada" target="_blank">
-            <img src="src/arquivos/Projetos/Beta-03.png" alt="Projeto Pokedex" />
-            <h3>Shiny-Pokedex</h3>
-            <div class="informacoes-projeto">
-              <p>Projeto feito usando React,SC,Js,React-Routes</p>
-              <p>🔗 Ver no GitHub Pages</p>
-            </div>
-          </a>   
-        </div>
-
-        <div class="projeto">
-          <a href="https://robooh.github.io/Music-Page/" target="_blank">
-            <img src="src/arquivos/Projetos/Beta-06.png" alt="Music-Page" />
-            <h3>Layout de Musica</h3>
-            <div class="informacoes-projeto">
-              <p>Projeto feito usando Html,Js,Css</p>
-              <p>🔗 Ver no GitHub Pages</p>
-            </div>
-          </a>
+            <label for="menu-hamburguer">
+              <div class="menu">
+                <span class="hamburguer"></span>
+              </div>
+            </label>
+            <ul>
+              <li><a href="#sobre-mim">Sobre mim</a></li>
+              <li><a href="#habilidades">Habilidades</a></li>
+              <li><a href="#projetos">Meus projetos</a></li>
+            </ul>
+          </nav>
         </div>
       </div>
-    </div>
-  </section>
+    </header>
 
-  <footer class="footer">
-    <div class="container">
-      <h2>Me envie uma mensagem!</h2>
-      <div class="redes-sociais">
-        <a href="https://www.linkedin.com/in/davi-gonzaga-83169526a/" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
-        <a href="https://wa.me/5511997508656" class="outer-shadow"><i class="fab fa-whatsapp"></i></a>
-        <a href="https://github.com/Robooh" class="outer-shadow"><i class="fab fa-github"></i></a>
+    <section class="home">
+      <div class="container">
+        <div class="row full-screen alinhar-itens-no-centro">
+          <div class="texto-home">
+            <p>Olá （￣︶￣）↗ ,</p>
+            <h1>Sou o Davi Gonzaga</h1>
+            <h2>Desenvolvedor Frontend</h2>
+
+            <div class="redes-sociais">
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/davi-gonzaga-83169526a/"
+                class="outer-shadow"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a
+                target="_blank"
+                href="https://wa.me/5511997508656"
+                class="outer-shadow"
+                ><i class="fab fa-whatsapp"></i
+              ></a>
+              <a
+                target="_blank"
+                href="https://github.com/Robooh"
+                class="outer-shadow"
+                ><i class="fab fa-github"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="img-home">
+            <div class="img-box inner-shadow">
+              <img
+                class="outer-shadow"
+                src="src/imagens/02.jpg"
+                alt="foto do perfil do Davi"
+              />
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </footer>
-</body>
+    </section>
+    <section class="sobre-mim section" id="sobre-mim">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>Sobre mim</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="imagem-sobre-mim">
+            <div class="img-box inner-shadow">
+              <img
+                src="src/imagens/foto-perfil.jpg"
+                alt="foto sobre mim"
+                class="outer-shadow"
+              />
+            </div>
+          </div>
+          <div class="informacoes-sobre-mim">
+            <p>
+              <strong
+                >Olá! Me chamo Davi Gonzaga e sou um desenvolvedor frontend em
+                formação!</strong
+              >
+              Gosto da área de tecnologia, e tenho certeza que posso contribuir
+              em qualquer time com as minhas habilidades.
+            </p>
 
+            <p>
+              Estou sempre me desafiando com novos projetos e participando de
+              comunidades de programação para buscar feedback de outros
+              desenvolvedores e desenvolvedoras.
+            </p>
+
+            <p>
+              Ah, gosto de jogos, filmes, séries, animes e outras nerdices. 💌
+            </p>
+
+            <div class="botoes">
+              <a
+                target="_blank"
+                href="src/arquivos/cv.pdf"
+                class="botao outer-shadow"
+                >Veja meu CV</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="habilidades section" id="habilidades">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>Habilidades</h2>
+          </div>
+        </div>
+
+        <div class="container-habilidades">
+          <div class="informacoes javascript">
+            <div class="logo">
+              <i class="devicon devicon-javascript-plain" id="javascript"></i>
+            </div>
+            <h3>JavaScript</h3>
+            <p>Tenho 1 ano de estudos em Js</p>
+          </div>
+
+          <div class="informacoes html">
+            <div class="logo">
+              <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
+            </div>
+            <h3>HTML5</h3>
+            <p>Tenho 1 ano em Html com boas skils e clean code</p>
+          </div>
+
+          <div class="informacoes css">
+            <div class="logo">
+              <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
+            </div>
+            <h3>CSS3</h3>
+            <p>Tenho 1 ano em Css</p>
+          </div>
+
+          <div class="informacoes react">
+            <div class="logo">
+              <i class="devicon-react-original" id="react"></i>
+            </div>
+            <h3>React</h3>
+            <p>
+              Tenho 7 meses utilizando a biblioteca de React, e seus
+              complementos como React-routes,Sc
+            </p>
+          </div>
+
+          <div class="informacoes node">
+            <div class="logo">
+              <i class="devicon-nodejs-plain" id="node.js"></i>
+            </div>
+            <h3>Node.Js</h3>
+            <p>Tenho 2 meses utilizando node.js para projetos de api</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projetos section" id="projetos">
+      <div class="container">
+        <div class="row">
+          <div class="section-title">
+            <h2>Meus projetos</h2>
+          </div>
+        </div>
+
+        <div class="container-projetos">
+          <div class="projeto">
+            <a href="https://robooh.github.io/Music-Page/" target="_blank">
+              <img src="src/arquivos/Projetos/Beta-06.png" alt="Music-Page" />
+              <h3>Layout de Musica</h3>
+              <div class="informacoes-projeto">
+                <p>Projeto feito usando Html,Js,Css</p>
+                <p>🔗 Ver no GitHub Pages</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="projeto">
+            <a href="https://robooh.github.io/Teddybear/" target="_blank">
+              <img src="src/arquivos/Projetos/Beta-04.png" alt="PGR-Teddy" />
+              <h3>Post-Page</h3>
+              <div class="informacoes-projeto">
+                <p>Projeto feito usando HTML, CSS e JavaScript</p>
+                <p>🔗 Ver no GitHub Pages</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="projeto">
+            <a href="https://robooh.github.io/Lading-Page/" target="_blank">
+              <img
+                src="src/arquivos/Projetos/Beta-05.png"
+                alt="Layout-Responsivo"
+              />
+              <h3>Layout-Page</h3>
+              <div class="informacoes-projeto">
+                <p>Projeto feito Usando Html,Css</p>
+                <p>🔗 Ver no GitHub Pages</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="projeto">
+            <a
+              href="https://pip-gwryq4bqp-robo-ohs-projects.vercel.app"
+              target="_blank"
+            >
+              <img
+                src="src/arquivos/Projetos/Beta-02.png"
+                alt="Projeto Fallout"
+              />
+              <h3>Pipboy</h3>
+              <div class="informacoes-projeto">
+                <p>Projeto feito usando React,Css,React-Routes</p>
+                <p>🔗 Ver no GitHub Pages</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <h2>Me envie uma mensagem!</h2>
+        <div class="redes-sociais">
+          <a
+            href="https://www.linkedin.com/in/davi-gonzaga-83169526a/"
+            class="outer-shadow"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+          <a href="https://wa.me/5511997508656" class="outer-shadow"
+            ><i class="fab fa-whatsapp"></i
+          ></a>
+          <a href="https://github.com/Robooh" class="outer-shadow"
+            ><i class="fab fa-github"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
